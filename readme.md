@@ -1,1 +1,1 @@
-https://fitmariusz.github.io/goit-markup-hw-01/
+https://fitmariusz.github.io/goit-markup-hw-02/
