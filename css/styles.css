@@ -1,0 +1,41 @@
+:root{
+    --color-tel-and-mail:#434455;
+    --color-hover-tel-and-mail: #404BBF;
+    --color-links: #2E2F42;
+    --color-active-links: #404BBF;
+    --color-buttons-text: white;
+    --color-buttons-background: #4D5AE5;
+    --color-active-buttons-background: #404BBF;
+}
+
+.body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contacts-telephone-mail{
+    color: var(--color-tel-and-mail)
+}
+
+.contacts-telephone-mail:hover,
+.contacts-telephone-mail:focus{
+    color: var(--color-hover-tel-and-mail);
+}
+
+.links{
+    color:var(--color-links);
+}
+.links:hover,
+.links:focus{
+    color:  var(--color-active-links);
+}
+
+.buttons{
+    color: var(--color-buttons-text);
+    background-color: var(--color-buttons-background);
+}
+
+.buttons:hover,
+.buttons:focus {
+    cursor: pointer;
+    background-color: var(--color-active-buttons-background);
+}
