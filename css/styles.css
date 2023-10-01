@@ -27,6 +27,21 @@
     --color-buttons-background: #4D5AE5;
     --color-active-buttons-background: #404BBF;
 }
+
+/*font*/
+.links-font{
+    font-weight: 500;
+    font-style: normal;
+}
+
+.h3-fonts{
+    font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+}
+
+
+
 .body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
@@ -35,7 +50,10 @@
 
 .logo{
     font-family: 'Raleway', sans-serif;
-    font-size: "72";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+
     color:var(--color-text);
     text-decoration-line: none;
     
@@ -43,7 +61,6 @@
 
 .logo-fooster{
     font-family: 'Raleway', sans-serif;
-    font-size: "72";
     color:var(--color-light);
     text-decoration-line: none;
     
@@ -51,12 +68,6 @@
 
 .logo-web{
     color: var(--color-primary-brand);
-}
-
-.navigation{
-    
-    
-
 }
 
 .contacts-telephone-mail{
@@ -71,7 +82,8 @@
 
 .links{
     color:var(--color-links);
-    text-decoration-line: none;
+
+    text-decoration: none;
 }
 .links:hover,
 .links:focus{
@@ -93,11 +105,15 @@
 .filters-buttons {
     color: var(--color-filter-button-text);
     background-color: var(--color-filter-button-background);
+    font-weight: 500;
+    letter-spacing: 4%;
+    text-align: center;
 }
 
 .filters-buttons:hover,
 .filters-buttons:focus {
     cursor: pointer;
+    color: var(--color-buttons-text);
     background-color: var(--color-active-buttons-background);
 }
 
