@@ -14,13 +14,8 @@
     --color-naigation-action: var(--color-ressed-state);
     --color-filter-button-text: var(--color-primary-brand);
     --color-filter-button-background: var(--color-accent);
-
-    
     --color-tel-and-mail:#434455;
     --color-hover-tel-and-mail: #404BBF;
-
-
-
     --color-links: #2E2F42;
     --color-active-links: #404BBF;
     --color-buttons-text: white;
@@ -150,8 +145,6 @@ body {
 }
 
 .image-project-card{
-    width: "360";
-    height: "300";
     background-color: var(--color-primary-brand);
 }
 
