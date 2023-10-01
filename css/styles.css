@@ -28,24 +28,36 @@
     --color-active-buttons-background: #404BBF;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    text-decoration-line: none;
+}
+
 /*font*/
 .links-font{
     font-weight: 500;
     font-style: normal;
 }
+.h1-fonts{
+    color: var(--color-buttons-text);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 
+
+}
+.h2-fonts{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
 .h3-fonts{
     font-weight: 500;
     font-size: 20;
     line-height: 1.2;
-}
-
-
-
-.body {
-    font-family: "Roboto", sans-serif;
-    color: var(--color-text);
-    text-decoration-line: none;
 }
 
 .logo{
@@ -101,6 +113,18 @@
     cursor: pointer;
     background-color: var(--color-active-buttons-background);
 }
+
+.section-hero{
+    
+    background-color: var(--color-dark);
+}
+
+.section-team{
+    background-color: var(--color-light);
+}
+
+
+
 
 .filters-buttons {
     color: var(--color-filter-button-text);
