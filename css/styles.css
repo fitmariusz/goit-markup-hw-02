@@ -1,19 +1,67 @@
 :root{
+    --color-text:#434455;
+    --color-primary-brand: #4D5AE5;
+    --color-ressed-state: #404BBF;
+    --color-dark:#2E2F42;
+    --color-success: #31D0AA;
+    --color-subtle-text:#8E8F99;
+    --color-accent:#E7E9FC;
+    --color-light:#F4F4FD;
+    --color-modal-overlay:#2E2F42;
+    --color-white-background:#FFFFFF;
+    --color-modal-background: #FCFCFC;
+    --color-naigation: var(--color-text);
+    --color-naigation-action: var(--color-ressed-state);
+    --color-filter-button-text: var(--color-primary-brand);
+    --color-filter-button-background: var(--color-accent);
+
+    
     --color-tel-and-mail:#434455;
     --color-hover-tel-and-mail: #404BBF;
+
+
+
     --color-links: #2E2F42;
     --color-active-links: #404BBF;
     --color-buttons-text: white;
     --color-buttons-background: #4D5AE5;
     --color-active-buttons-background: #404BBF;
 }
+.body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    text-decoration-line: none;
+}
 
-.body{
-    font-family: 'Courier New', Courier, monospace;
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: "72";
+    color:var(--color-text);
+    text-decoration-line: none;
+    
+}
+
+.logo-fooster{
+    font-family: 'Raleway', sans-serif;
+    font-size: "72";
+    color:var(--color-light);
+    text-decoration-line: none;
+    
+}
+
+.logo-web{
+    color: var(--color-primary-brand);
+}
+
+.navigation{
+    
+    
+
 }
 
 .contacts-telephone-mail{
-    color: var(--color-tel-and-mail)
+    color: var(--color-tel-and-mail);
+    text-decoration-line: none;
 }
 
 .contacts-telephone-mail:hover,
@@ -23,6 +71,7 @@
 
 .links{
     color:var(--color-links);
+    text-decoration-line: none;
 }
 .links:hover,
 .links:focus{
@@ -32,10 +81,41 @@
 .buttons{
     color: var(--color-buttons-text);
     background-color: var(--color-buttons-background);
+
 }
 
 .buttons:hover,
 .buttons:focus {
     cursor: pointer;
     background-color: var(--color-active-buttons-background);
+}
+
+.filters-buttons {
+    color: var(--color-filter-button-text);
+    background-color: var(--color-filter-button-background);
+}
+
+.filters-buttons:hover,
+.filters-buttons:focus {
+    cursor: pointer;
+    background-color: var(--color-active-buttons-background);
+}
+
+.lists{
+    list-style-type: none;
+}
+
+.project-card{
+    background-color: var(--color-white-background);
+}
+
+.image-project-card{
+    width: "360";
+    height: "300";
+    background-color: var(--color-primary-brand);
+}
+
+.fooster-parameters{
+    background-color: var(--color-dark);
+    color: var(--color-light);
 }

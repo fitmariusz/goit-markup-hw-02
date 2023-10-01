@@ -5,16 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav>
         <!--LOGO-->
-        <a href="./index.html">WebStudio</a>
+        <a class="logo" href="./index.html"
+          ><span class="logo-web">WEB</span>STUDIO</a
+        >
 
         <!--navigation menu-->
 
-        <ul>
+        <ul class="nawigation-menu lists">
           <li><a class="links" href="./index.html">Studio</a></li>
           <li><a class="links" href="./portfolio.html">Portfolio</a></li>
           <li><a class="links" href="">Contacts</a></li>
@@ -22,88 +30,125 @@
       </nav>
 
       <!--Contact-->
-      <address>
-        <ul>
+      <address class="contacts-telephone-mail">
+        <ul class="lists">
           <li>
-            <a class="contacts-telephone-mail" href="mailto:info@devstudio.com"
+            <a class="links" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="contacts-telephone-mail" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
+            <a class="links" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
+      <section class="portfolio-filters">
         <ul>
-          <il><button class="buttons" type="button">All</button></il>
-          <il><button class="buttons" type="button">Web Site</button></il>
-          <il><button class="buttons" type="button">App</button></il>
-          <il><button class="buttons" type="button">Design</button></il>
-          <il><button class="buttons" type="button">Marketing</button></il>
+          <li><button class="filters-buttons" type="button">All</button></li>
+          <li><button class="filters-buttons" type="button">Web Site</button></li
+          >
+          <li><button class="filters-buttons" type="button">App</button></li>
+          <li><button class="filters-buttons" type="button">Design</button></li>
+          <li
+            ><button class="filters-buttons" type="button">
+              Marketing
+            </button></
+          >
         </ul>
       </section>
 
-      <section>
-        <h3>Secion1</h3>
-        <ul>
-          <li>
-            <img src="./images/pagesbankapp.jpg" alt="" />
-            <h3></h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="./images/Phone readQRcode.jpg" alt="" />
-            <h3></h3>
-            <p></p>
-          </li>
-          <li>
+      <section class="portfolio-section-fotos">
+        <h3></h3>
+        <ul class="lists">
+          <li class="project-card">
             <img
-              src="./images/Computerandsmartphonewithdesamefoto.jpg"
-              alt=""
+              class="image-project-ca"
+              src="./images/pagesbankapp.jpg"
+              alt="Application pages view for logging in to the bank and managing your bank account. The dominant colors are purple and white. Purple at the top of the page, white at the bottom"
             />
-            <h3></h3>
-            <p></p>
+            <h3>Banking App Interface Concept</h3>
+            <p>App</p>
           </li>
-          <li>
-            <img src="./images/cocpitincar.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img
+              class="image-project-ca"
+              src="./images/PhoneReadQRcode.jpg"
+              alt="Smartphone held in fingers and reading QR code with smartphone."
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/destopwith nun.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img
+              class="image-project-ca"
+              src="./images/Computerandsmartphonewithdesamefoto.jpg"
+              alt="On the laptop screen and on the smartphone screen there is the same colorful image with the words - return to normalcy."
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
           </li>
-          <li>
-            <img src="./images/Womeninorangedress.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img
+              class="image-project-card"
+              src="./images/cocpitincar.jpg"
+              alt="Cockpit in the car. Smartphone in the holder with staking turned on."
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/leaflet.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img
+              class="image-project-card"
+              src="./images/destopwith nun.jpg"
+              alt="Five images with desktop proposals with a moon theme"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
           </li>
-          <li>
-            <img src="./images/womenwithbag.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img
+              class="image-project-card"
+              src="./images/Womeninorangedress.jpg"
+              alt="A woman in a yellow sweater, gray hat and glasses looks at the smartphone"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
           </li>
-          <li>
-            <img src="./images/cafeewitchmilk.jpg" alt="" />
-            <h3></h3>
-            <p></p>
+          <li class="project-card">
+            <img 
+            class="image-project-card" 
+            src="./images/leaflet.jpg" 
+            alt="Description of home control presented by a woman in a white turtleneck. Control options via smartphone and touch screen are shown." />
+            <h3>Instagram Stories Concept</h3>
+            <p>Design</p>
+          </li>
+          <li class="project-card">
+            <img
+              class="image-project-card"
+              src="./images/womenwithbag.jpg"
+              alt="A woman dressed in gray pants, a gray long sweater and a white blouse carries fruits and vegetables in a white mesh bag."
+            />
+            <h3>Organic Food</h3>
+            <p>Web Site</p>
+          </li>
+          <li class="project-card">
+            <img
+              class="image-project-card"
+              src="./images/cafeewitchmilk.jpg"
+              alt="The barista pours milk to create a pattern on the surface of the coffee"
+            />
+            <h3>Fresh Coffee</h3>
+            <p>Web Site</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./index.html">WebStudio</a>
+    <footer class="fooster-parameters">
+      <a  class="logo-fooster" href="./index.html"
+          ><span class="logo-web">WEB</span>STUDIO</a
+        >
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
