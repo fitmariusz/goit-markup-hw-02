@@ -63,6 +63,12 @@ body {
     font-size: 20;
     line-height: 1.2;
 }
+.font-a-in-fooster{
+    color: var(--color-light);
+    line-height: 1.5;
+    letter-spacing: 0.0em;
+}
+
 
 .logo{
     font-family: 'Raleway', sans-serif;
