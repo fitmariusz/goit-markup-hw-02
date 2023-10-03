@@ -13,7 +13,7 @@
     --color-naigation: var(--color-text);
     --color-naigation-action: var(--color-ressed-state);
     --color-filter-button-text: var(--color-primary-brand);
-    --color-filter-button-background: var(--color-accent);
+    --color-filter-button-background: var(--color-light);
     --color-tel-and-mail:#434455;
     --color-hover-tel-and-mail: #404BBF;
     --color-links: #2E2F42;
@@ -181,6 +181,29 @@ body {
 
 
 
+/*main in portfolio.html*/
+.filters-buttons {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-filter-button-text);
+    background-color: var(--color-filter-button-background);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filters-buttons:hover,
+.filters-buttons:focus {
+    cursor: pointer;
+    color: var(--color-buttons-text);
+    background-color: var(--color-active-buttons-background);
+}
+
+
+
+
 /*
 
 
@@ -216,20 +239,6 @@ body {
 
 
 
-.filters-buttons {
-    color: var(--color-filter-button-text);
-    background-color: var(--color-filter-button-background);
-    font-weight: 500;
-    letter-spacing: 4%;
-    text-align: center;
-}
-
-.filters-buttons:hover,
-.filters-buttons:focus {
-    cursor: pointer;
-    color: var(--color-buttons-text);
-    background-color: var(--color-active-buttons-background);
-}
 
 
 
