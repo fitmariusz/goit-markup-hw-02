@@ -78,15 +78,22 @@ body {
 }
 .h3-fonts{
     font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
 }
 .p-font{
-    color: var(--color-light);
+    color: var(--color-text);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.p-font-fooster{
+    color: var(--color-light);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -149,7 +156,7 @@ body {
     background-color: var(--color-buttons-background);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16x;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
 
