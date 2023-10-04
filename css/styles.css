@@ -58,7 +58,7 @@ body {
 
 }
 
-.FontsHOne{
+.fontshone{
     color: var(--color-buttons-text);
     font-weight: 700;
     font-size: 56px;
@@ -68,7 +68,7 @@ body {
 
 
 }
-.FontsHTwo{
+.fontshtwo{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -76,7 +76,7 @@ body {
     text-transform: capitalize;
     color: var(--color-dark);
 }
-.FontsHThre{
+.fontshthre{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
