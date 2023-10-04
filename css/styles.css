@@ -58,7 +58,7 @@ body {
 
 }
 
-.h1-fonts{
+.FontsH1{
     color: var(--color-buttons-text);
     font-weight: 700;
     font-size: 56px;
@@ -68,7 +68,7 @@ body {
 
 
 }
-.h2-fonts{
+.FontsH2{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -76,7 +76,7 @@ body {
     text-transform: capitalize;
     color: var(--color-dark);
 }
-.h3-fonts{
+.FontsH3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
