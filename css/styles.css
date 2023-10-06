@@ -22,7 +22,9 @@
     --color-buttons-background: #4D5AE5;
     --color-active-buttons-background: #404BBF;
 }
-
+.container{
+    width: 1158px;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
